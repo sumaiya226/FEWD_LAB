@@ -1,0 +1,24 @@
+ways of creating a backend file
+npm init or npm init -y to develop from scratch
+other way is using express generator it craetes a project folder structure (use nmp install or npx)
+npx create-react-app frontend 
+npm install axios
+npm install express mongoose cors dotenv
+
+
+
+
+optimizaton in deep learning refers to the process of adjusting parameters 
+(weigths and bias) to minimize a loss func (mse) during training
+
+gradient descent algorithm is an optimization technique used to minimize 
+loss func by iteravtiveky adjusting weights and bias by moving in the 
+opposite direction of gradient 
+
+what are the diff b/w nn and dl 
+draw the mp neural model and perceptron model
+what are the char of dl
+write the full forms of ilsvrc, bgg, resnet, ssd, yolo, rcnn
+what is the imp of resnet
+imp of alexnet
+define optimization, gradient descent algorithm, wrote the formula for weight updation 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+
+    <!-- Link Local Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <div class="card shadow p-4">
+            <h2 class="text-center">Feedback Form</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name (Optional)</label>
+                    <input type="text" id="name" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email (Optional)</label>
+                    <input type="email" id="email" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone (Optional)</label>
+                    <input type="tel" id="phone" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="rating" class="form-label">Rating</label>
+                    <select id="rating" class="form-select">
+                        <option value="5">5 - Excellent</option>
+                        <option value="4">4 - Very Good</option>
+                        <option value="3">3 - Good</option>
+                        <option value="2">2 - Fair</option>
+                        <option value="1">1 - Poor</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-success w-100">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Link Local Bootstrap JavaScript -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
